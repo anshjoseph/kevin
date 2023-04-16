@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Roboto:ital,wght@1,900&family=Rubik+Pixels&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.top-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+    font-family: 'Rubik Pixels', cursive;
+    font-size: 45px;
+    font-weight: 500;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.center-comp{
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.dog{
+    transition: cubic-bezier(0.23, 1, 0.320, 1);
+    transition-duration: 200ms;
+}
